@@ -1,12 +1,16 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
-require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
-require_once('F:\OSPanel\domains\projekt\Header_Footer\Header.php');
-require_once('F:\OSPanel\domains\projekt\Header_Footer\Footer.php');
-require_once('F:\OSPanel\domains\projekt\Classes\EchoOut.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
+////require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
+////require_once('F:\OSPanel\domains\projekt\Header_Footer\Header.php');
+////require_once('F:\OSPanel\domains\projekt\Header_Footer\Footer.php');
+////require_once('F:\OSPanel\domains\projekt\Classes\EchoOut.php');
 
-
+require_once('../Classes/PageInterface.php');
+require_once('../Classes/RenderInterface.php');
+require_once('../Header_Footer/Header.php');
+require_once('../Header_Footer/Footer.php');
+require_once('../Classes/EchoOut.php');
 
 /**
  * Class PhpPageRenderer build whole site and need header,main,footer

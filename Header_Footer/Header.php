@@ -1,8 +1,12 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
-require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
-require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
+//require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+
+require_once('../Classes/PhpPageRenderer.php');
+require_once('../Classes/PhpPageRenderer.php');
+require_once('../Factory/Factory.php');
 
 class Header implements RenderInterface
 {

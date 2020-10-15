@@ -1,7 +1,10 @@
 <?php
 
-require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
-require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+
+require_once("../Classes/PageInterface.php");
+require_once("../Classes/RenderInterface.php");
 
 class MainLieferantAuswahlFuerHeute implements PageInterface
 {
@@ -58,15 +61,15 @@ HTML
 <form action="?upload=1" method="post"" enctype="multipart/form-data">
 <fieldset class="fieldsetorder"">
 <legend class="legendorder">{$supplier->getName()}</legend>
-                <p><img src="\Images\address.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getAddress()}</span></p>
-                <p><img src="\Images\icon-phone.jpg" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getPhone()}</span></p>
-                <p><img src="\Images\icons-email.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getEmail()}</span></p>
-                <p><img src="\Images\icon-opentime.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getOpentime()}</span></p>         
+                <p><img src="..\Images\address.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getAddress()}</span></p>
+                <p><img src="..\Images\icon-phone.jpg" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getPhone()}</span></p>
+                <p><img src="..\Images\icons-email.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getEmail()}</span></p>
+                <p><img src="..\Images\icon-opentime.png" alt="img" width="70px" height="70px"> <span style="margin-left: 150px">{$supplier->getOpentime()}</span></p>         
                  
                 <input type="hidden" name="supplierId" value="{$supplier->getId()}"> 
                                         
-                <div style="margin-left: 350px"title="menu einsehen"><a href = "../Pages/SpeisekarteSehen.php?supplierId={$supplier->getId()}"><img src="\Images\icon-menu.png" alt="img" width="70px" height="70px"></a></div>              
-                <input type="image" title="dieser Lieferant für gesamte Bestellung wählen "  src="\Images\supplier-change.png" width="75px" height="75px" alt="Submit" style="float: left">
+                <div style="margin-left: 350px"title="menu einsehen"><a href = "../Pages/SpeisekarteSehen.php?supplierId={$supplier->getId()}"><img src="..\Images\icon-menu.png" alt="img" width="70px" height="70px"></a></div>              
+                <input type="image" title= "dieser Lieferant für gesamte Bestellung wählen"  src="..\Images\supplier-change.png" width="75px" height="75px" alt="Submit" style="float: left">
             <br>
 </fieldset>
 </form>

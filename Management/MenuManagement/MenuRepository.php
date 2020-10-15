@@ -1,6 +1,8 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Management\MenuManagement\MenuMapper.php');
+//require_once('F:\OSPanel\domains\projekt\Management\MenuManagement\MenuMapper.php');
+
+require_once('MenuMapper.php');
 
 class MenuRepository
 {

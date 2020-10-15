@@ -2,8 +2,12 @@
 
 session_start();
 
-require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
-require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+
+require_once ("../Classes/PageInterface.php");
+require_once ("../Classes/RenderInterface.php");
+
 
 class MainLogin implements PageInterface
 {

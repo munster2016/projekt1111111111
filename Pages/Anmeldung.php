@@ -2,9 +2,13 @@
 
 session_start();
 
-require_once('F:\OSPanel\domains\projekt\Classes\MainLogin.php');
-require_once('F:\OSPanel\domains\projekt\Classes\PhpPageRenderer.php');
-require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\MainLogin.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\PhpPageRenderer.php');
+//require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+
+require_once('../Classes/MainLogin.php');
+require_once('../Classes/PhpPageRenderer.php');
+require_once('../Factory/Factory.php');
 
 
 
@@ -20,7 +24,7 @@ if (isset($_REQUEST['login'])) {
     $user = $userRepos->getByName($name);
 
     /**
-     * Controller, check password from DB with password from post
+     * Controller, checking password from DB with password from post
      */
     if (!empty($user) && $password == $user->getPassword()) {
 

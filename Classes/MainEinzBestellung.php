@@ -1,11 +1,19 @@
 <?php
 
-require_once ("F:\OSPanel\domains\projekt\Classes\PageInterface.php");
-require_once ("F:\OSPanel\domains\projekt\Classes\RenderInterface.php");
-require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
-require_once('F:\OSPanel\domains\projekt\Classes\EchoOut.php');
-require_once('F:\OSPanel\domains\projekt\Management\UserManagement\User.php');
-require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement\Supplier.php');
+//require_once ("F:\OSPanel\domains\projekt\Classes\PageInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes\RenderInterface.php");
+//require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\EchoOut.php');
+//require_once('F:\OSPanel\domains\projekt\Management\UserManagement\User.php');
+//require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement\Supplier.php');
+
+
+require_once ("../Classes/PageInterface.php");
+require_once ("../Classes/RenderInterface.php");
+require_once('../Factory/Factory.php');
+require_once('../Classes/EchoOut.php');
+require_once('../Management/UserManagement/User.php');
+require_once('../Management/SupplierManagement/Supplier.php');
 
 class MainEinzBestellung implements PageInterface
 {
@@ -14,9 +22,12 @@ class MainEinzBestellung implements PageInterface
      */
     private $_user;
 
-    public function __construct(?User $user)
+    private $_error;
+
+    public function __construct(?User $user, ?string $error)
     {
         $this->_user = $user;
+        $this->_error = $error;
     }
 
     public function isMenu(): bool
@@ -82,13 +93,14 @@ HTML
     {$food->getName()}<span style="margin-right: 100px"></span> {$food->getPrice()} Euro
   </label>
 </div>                            
-                                                                                                        
+                                                                                                       
 HTML
             );
         }
         $out->print(<<<HTML
                                                                                                       
                                         </fieldset>
+                                        <div style="color: red">$this->_error</div> 
                                         <br>
                                         <input type="hidden" name="supplierId" value="{$currsupplierId}"> 
                                         <textarea name="wish" placeholder="schreib noch Zusatzwünsch..." id="" cols="25" rows="3"></textarea>

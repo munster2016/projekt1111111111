@@ -1,8 +1,12 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Classes\Database.php');
-require_once('F:\OSPanel\domains\projekt\Management\FoodManagement\Food.php');
-require_once('F:\OSPanel\domains\projekt\Management\MenuManagement\Menu.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\Database.php');
+//require_once('F:\OSPanel\domains\projekt\Management\FoodManagement\Food.php');
+//require_once('F:\OSPanel\domains\projekt\Management\MenuManagement\Menu.php');
+
+//require_once('../Classes/Database.php');
+require_once('Food.php');
+require_once('Menu.php');
 
 class MenuMapper
 {
@@ -30,7 +34,7 @@ class MenuMapper
         $select = [
             'foodId',
             'name',
-            'preis',
+            'price',
             'supplierId'
         ];
         $where = [
@@ -47,7 +51,7 @@ class MenuMapper
                 $menu['supplierId'],
                 $menu['foodId'],
                 $menu['name'],
-                $menu['preis'],
+                $menu['price']
             );
         }
         $menuKarte = new Menu($menuArray, $supplierId);

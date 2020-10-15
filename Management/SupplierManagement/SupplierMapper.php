@@ -1,6 +1,8 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement\Supplier.php');
+//require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement\Supplier.php');
+
+require_once('Supplier.php');
 
 class SupplierMapper
 {
@@ -67,7 +69,7 @@ class SupplierMapper
                 $supplier['phone'],
                 $supplier['email'],
                 $supplier['opentime'],
-                $supplier['isActive'],
+                $supplier['isActive']
             );
     }
 

@@ -1,7 +1,10 @@
 <?php
 
-require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
-require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/PageInterface.php");
+//require_once ("F:\OSPanel\domains\projekt\Classes/RenderInterface.php");
+
+require_once ("../Classes/PageInterface.php");
+require_once ("../Classes/RenderInterface.php");
 
 class MainEinzBestellungFertig implements PageInterface
 {
@@ -37,10 +40,10 @@ class MainEinzBestellungFertig implements PageInterface
                 <div>
                     <h2 class="main__text"></h2>
                     <div class="profile__list">
-                    <div class="main__text"><p><span style="margin-left: 50px">Deine Bestellung kostet: </p></div>
+                    <div class="main__text"><p><span style="margin-left: 50px"></p></div>
                     <div class="main__text"><p><span style="margin-left: 50px">Deine Bestellung wird überprüft und kommt bald. </p></div>
                     <div class="main__text"><p><span style="margin-left: 50px">Vielen Dank  {$this->_user->getName()}, bis zum nächstes Mal.</p></div>
-                    <div><span style="margin-left: 150px"><img src="/Images/food-delivery.jpg" width="350px" height="300px"  alt="img"></div>   
+                    <div><span style="margin-left: 150px"><img src="../Images/food-delivery.jpg" width="450px" height="350px"  alt="img"></div>   
                 </div>
 
                 </div>

@@ -1,8 +1,10 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Management\OrderManagement/OrderMapper.php');
-require_once('F:\OSPanel\domains\projekt\Management\OrderManagement/SingleOrder.php');
+//require_once('F:\OSPanel\domains\projekt\Management\OrderManagement/OrderMapper.php');
+//require_once('F:\OSPanel\domains\projekt\Management\OrderManagement/SingleOrder.php');
 
+require_once('OrderMapper.php');
+require_once('SingleOrder.php');
 
 class OrderRepository
 {
@@ -21,9 +23,9 @@ class OrderRepository
      */
     public function storeOrder(SingleOrder $order)
     {
-        $storeOrder = $this->_mapper->storeOrder($order);
+         $this->_mapper->storeOrder($order);
 
-        return $storeOrder;
+
 
     }
 

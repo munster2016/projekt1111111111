@@ -1,6 +1,6 @@
 
 html {
-    background: url(/Images/pizza.jpg) no-repeat center center fixed;
+    background: url(../Images/pizza.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -126,8 +126,7 @@ main.anmeldung{
 .btn:focus
 {
     outline:0;
-    -webkit-outline:0;
-    -moz-outline:0;
+
 }
 
 .form-signin {
@@ -169,12 +168,12 @@ main.anmeldung{
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    border-top-style: none;
+
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
     border-color: rgb(0,0,0);
-    border-top:1px solid rgba(0,0,0,0.08);
+
 }
 .form-signin-heading {
     color: #fff;
@@ -228,8 +227,7 @@ footer{
     background-image: linear-gradient(#062256, #337ab7);
     color: #F7F7F7;
     padding: 7px;
-    font-size: 15px;
-    font-family: Trebuchet MS;
+    font: 15px Trebuchet MS ;
     border: none;
     overflow: visible;
 }
@@ -271,4 +269,14 @@ footer{
 
 .main__text{
     font: 20px "Arial Black";
+}
+
+.container-fullorder{
+    display: flex;
+    flex-direction: row;
+}
+
+.fullordr-phone-icon{
+    margin-left: 410px;
+    margin-right: 100px;
 }

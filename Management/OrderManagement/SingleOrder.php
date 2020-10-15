@@ -40,7 +40,7 @@ class SingleOrder
      * @param Food[] $food
      * @param string $fullOrderId
      */
-    public function __construct(string $userId, string $lieferId, string $wishUser, string $time, array $food)
+    public function __construct(string $userId, string $lieferId, string $wishUser, string $time, ?array $food)
     {
         //$this->fullOrderId = $fullOrderId;
         $this->userId = $userId;
@@ -59,13 +59,13 @@ class SingleOrder
         return $this->time;
     }
 
-    /**
-     * @return string
-     */
-    public function getSingleOrderId(): string
-    {
-        return $this->singleOrderId;
-    }
+//    /**
+//     * @return string
+//     */
+//    public function getSingleOrderId(): string
+//    {
+//        return $this->singleOrderId;
+//    }
 
     /**
      * @param string $singleOrderId
@@ -148,4 +148,5 @@ class SingleOrder
     {
         $this->food = $food;
     }
+
 }

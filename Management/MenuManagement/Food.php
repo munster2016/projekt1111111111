@@ -19,7 +19,7 @@ class Food
     private $name;
 
     /**
-     * @var double
+     * @var float
      */
     private $price;
 

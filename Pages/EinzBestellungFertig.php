@@ -2,10 +2,13 @@
 
 session_start();
 
-require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
-require_once('F:\OSPanel\domains\projekt\Classes\PhpPageRenderer.php');
-require_once('F:\OSPanel\domains\projekt\Classes\MainEinzBestellungFertig.php');
+//require_once('F:\OSPanel\domains\projekt\Factory\Factory.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\PhpPageRenderer.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\MainEinzBestellungFertig.php');
 
+require_once('../Factory/Factory.php');
+require_once('../Classes/PhpPageRenderer.php');
+require_once('../Classes/MainEinzBestellungFertig.php');
 
 if (!isset($_SESSION['userid'])) {
     session_destroy();

@@ -1,7 +1,10 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
-require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\PageInterface.php');
+//require_once('F:\OSPanel\domains\projekt\Classes\RenderInterface.php');
+
+require_once('../Classes/PhpPageRenderer.php');
+require_once('../Classes/PhpPageRenderer.php');
 
 class Footer implements RenderInterface
 {

@@ -11,7 +11,8 @@ class Database
     public function __construct()
     {
         try {
-            $this->_pdo = new PDO('mysql:host=127.0.0.1:1000;dbname=projekt_db', 'root', ''
+            //$this->_pdo = new PDO('mysql:host=127.0.0.1:1000;dbname=projekt_db', 'root', ''
+            $this->_pdo = new PDO('mysql:host=vmdbnb05.mainz.interexa.de:33080;dbname=projekt_db', 'aadamchuk', 'aadamchuk'
                 , array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         } catch (PDOException $ex) {
             die('Konnte keine Verbindung zur Datenbank aufbauen, bitte wenden sie sich an einen Admin');

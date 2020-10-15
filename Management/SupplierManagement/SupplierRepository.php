@@ -1,6 +1,8 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement/SupplierMapper.php');
+//require_once('F:\OSPanel\domains\projekt\Management\SupplierManagement/SupplierMapper.php');
+
+require_once('SupplierMapper.php');
 
 class SupplierRepository
 {

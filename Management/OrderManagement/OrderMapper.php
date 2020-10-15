@@ -1,6 +1,8 @@
 <?php
 
-require_once("F:\OSPanel\domains\projekt\Management\FullOrderManagement\FullOreder.php");
+//require_once("F:\OSPanel\domains\projekt\Management\FullOrderManagement\FullOrder.php");
+
+require_once "FullOrder.php";
 
 
 class OrderMapper
@@ -21,6 +23,7 @@ class OrderMapper
     public function storeOrder(SingleOrder $order)
     {
         $orderDataArray1 = array(
+
             'userId' => $order->getUserId(),
             'userWish' => $order->getWishUser(),
             'supplierId' => $order->getLieferId(),
@@ -46,15 +49,27 @@ class OrderMapper
                 'singleOrderId' => $lastId,
                 'foodId' => $food,
             );
-            $this->_database->insert('orderIdfoodId', $orderDataArray2);
+            $this->_database->insert('orderidfoodid', $orderDataArray2);
         }
     }
 
+
     public function getFullOrder():FullOrder
     {
+
+        $currDay = date("d");
+        $currMohth = date("m");
+        $currYear = date("y");
+
         $select = ['userId', 'userWish', 'supplierId', 'date', 'singleOrderId'
         ];
-        $where = [];
+
+        $where = [
+            ['Day(`date`)', '=', $currDay, 'AND'],
+            ['Month(`date`)', '=', $currMohth, 'AND'],
+            ['Year(`date`)', '=', '20'.$currYear, 'AND'],
+            ['Hour(`date`)', '<', '11']
+        ];
 
         $result = $this->_database->fetch(
             $select,
@@ -63,11 +78,12 @@ class OrderMapper
         );
 
         $ordersArray =[];
-        $singleOrderFood = [];
+
             foreach ($result as $item) {
                 $resultWithFoods = $this->_database->fetch(
-                    ['foodId'], 'orderIdfoodId', [['singleOrderId', '=', $item['singleOrderId']]]
+                    ['foodId'], 'orderidfoodid', [['singleOrderId', '=', $item['singleOrderId']]]
                 );
+                $singleOrderFood = [];
                 foreach ($resultWithFoods as $food) {
                     $singleOrderFood [] = $food['foodId'];
                 }
@@ -84,7 +100,7 @@ class OrderMapper
             }
         $fullOrder = new FullOrder(
             '',
-            date("Y-m-d H:i:s"),
+            date("Y-m-d"),
             $ordersArray
     );
 

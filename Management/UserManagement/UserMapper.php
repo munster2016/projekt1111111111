@@ -1,6 +1,8 @@
 <?php
 
-require_once('F:\OSPanel\domains\projekt\Management\UserManagement/User.php');
+//require_once('F:\OSPanel\domains\projekt\Management\UserManagement/User.php');
+
+require_once('User.php');
 
 class UserMapper
 {

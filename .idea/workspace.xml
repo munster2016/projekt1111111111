@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1266548e-df81-4c7e-8105-07b2f6bfaa8c" name="Default Changelist" comment="" />
+    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="3333">
+      <change afterPath="$PROJECT_DIR$/.idea/projekt1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/MenuManagement/FoodMapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Management/MenuManagement/FoodRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/PageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/PhpPageRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PhpPageRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Footer/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/FoodManagement/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Food.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/FullOrderManagement/FullOreder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/MenuMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/MenuMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/MenuRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/MenuRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/SupplierMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/SupplierMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/SupplierRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/SupplierRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/UserManagement/UserMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/UserMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/UserManagement/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/AlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AlleLieferanten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Anmeldung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Anmeldung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EinzBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EinzBestellungFertig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/GesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/GesamteBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/LieferantAuswahl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/LieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LieferantAuswahlFuerHeute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/SpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/SpeisekarteSehen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,32 +54,49 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="CSS File" />
+        <option value="andrii" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
     <include_path>
       <path value="$PROJECT_DIR$/../../modules/php/PHP_7.3-x64/PEAR/pear" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1icjVeAmO9y8U150pkZlHP7JgsK" />
+  <component name="ProjectId" id="1irRNnRng3npSEHHsLxvp36wsrU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\OSPanel\domains\projekt\Classes" />
-      <recent name="F:\OSPanel\domains\projekt\Management\UserManagement" />
-      <recent name="F:\OSPanel\domains\projekt\Factory" />
-      <recent name="F:\OSPanel\domains\projekt\Pages" />
-      <recent name="F:\OSPanel\domains\projekt" />
+      <recent name="D:\user\aadamchuk\projekt\Management\OrderManagement" />
+      <recent name="D:\user\aadamchuk\projekt\Management\MenuManagement" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,24 +116,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1266548e-df81-4c7e-8105-07b2f6bfaa8c" name="Default Changelist" comment="" />
-      <created>1602213798332</created>
+      <changelist id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="" />
+      <created>1602663686033</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602213798332</updated>
-      <workItem from="1602213799450" duration="23625000" />
-      <workItem from="1602277862303" duration="500000" />
-      <workItem from="1602278364004" duration="1443000" />
-      <workItem from="1602280183532" duration="31083000" />
-      <workItem from="1602420081868" duration="16466000" />
-      <workItem from="1602454036519" duration="11274000" />
-      <workItem from="1602497016384" duration="45007000" />
-      <workItem from="1602582776015" duration="8303000" />
-      <workItem from="1602606153109" duration="17899000" />
+      <updated>1602663686033</updated>
+      <workItem from="1602663687248" duration="576000" />
+      <workItem from="1602664410133" duration="24045000" />
+      <workItem from="1602745882003" duration="6772000" />
+      <workItem from="1602752705727" duration="7927000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="14102020" />
+    <MESSAGE value="15102020" />
+    <MESSAGE value="151020201" />
+    <MESSAGE value="1510202011" />
+    <MESSAGE value="proectOK" />
+    <MESSAGE value="proectSuccses" />
+    <MESSAGE value="proectSuccses15102020" />
+    <MESSAGE value="proectSuccses1510" />
+    <MESSAGE value="proectSuccses15101212" />
+    <MESSAGE value="proectSuccses15101" />
+    <MESSAGE value="2222" />
+    <MESSAGE value="3333" />
+    <option name="LAST_COMMIT_MESSAGE" value="3333" />
   </component>
 </project>
