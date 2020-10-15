@@ -88,10 +88,10 @@ HTML
             $out->print(<<<HTML
 
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" name="foodId[]" value="{$food->getFoodId()}" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-    {$food->getName()}<span style="margin-right: 100px"></span> {$food->getPrice()} Euro
-  </label>
+            <div style="width: 190px"><input class="form-check-input" type="checkbox" name="foodId[]" value="{$food->getFoodId()}" id="defaultCheck1">
+            {$food->getName()}</div>
+            <div style="text-align: end"><span style="margin-right: 150px"></span> {$food->getPrice()} Euro</div>
+            
 </div>                            
                                                                                                        
 HTML

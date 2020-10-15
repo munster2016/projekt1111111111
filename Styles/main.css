@@ -280,3 +280,8 @@ footer{
     margin-left: 410px;
     margin-right: 100px;
 }
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+}

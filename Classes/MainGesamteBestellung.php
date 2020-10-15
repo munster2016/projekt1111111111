@@ -129,7 +129,7 @@ HTML
 
             $out->print(<<<HTML
                 </span></p>
-                <p>Zusatzwünsch : <span style="margin-left: 100px">{$item->getWishUser()}</span></p>
+                <p>Zusatzwünsch : <span style="margin-left: 100px; color: midnightblue">{$item->getWishUser()}</span></p>
                 <p>Zeit der Bestellung :<span style="margin-left: 50px">{$item->getTime()}</span></p>
                  
                 <input type="hidden" name="supplierId" value="{$item->getUserId()}"> 
