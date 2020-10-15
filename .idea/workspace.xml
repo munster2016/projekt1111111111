@@ -1,47 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="3333">
-      <change afterPath="$PROJECT_DIR$/.idea/projekt1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Management/MenuManagement/FoodMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Management/MenuManagement/FoodRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/PageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PageInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/PhpPageRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/PhpPageRenderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Footer/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/FoodManagement/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Food.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/FullOrderManagement/FullOreder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/MenuMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/MenuMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/MenuRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/MenuRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/SupplierMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/SupplierMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/SupplierRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/SupplierRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/UserManagement/UserMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/UserMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/UserManagement/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/AlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AlleLieferanten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Anmeldung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Anmeldung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/EinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EinzBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/EinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EinzBestellungFertig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/GesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/GesamteBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/LieferantAuswahl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/LieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LieferantAuswahlFuerHeute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/SpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/SpeisekarteSehen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -124,8 +86,16 @@
       <workItem from="1602663687248" duration="576000" />
       <workItem from="1602664410133" duration="24045000" />
       <workItem from="1602745882003" duration="6772000" />
-      <workItem from="1602752705727" duration="7927000" />
+      <workItem from="1602752705727" duration="8666000" />
     </task>
+    <task id="LOCAL-00001" summary="3333">
+      <created>1602761353904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602761353905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
