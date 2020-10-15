@@ -68,7 +68,7 @@ class OrderMapper
             ['Day(`date`)', '=', $currDay, 'AND'],
             ['Month(`date`)', '=', $currMohth, 'AND'],
             ['Year(`date`)', '=', '20'.$currYear, 'AND'],
-            ['Hour(`date`)', '<', '11']
+            ['Hour(`date`)', '<', '19']
         ];
 
         $result = $this->_database->fetch(

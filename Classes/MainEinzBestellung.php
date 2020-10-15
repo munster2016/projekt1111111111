@@ -75,7 +75,7 @@ class MainEinzBestellung implements PageInterface
                     <div class="main__text"><p><span style="margin-left: 350px"></span>Lieferant für heute: <span style="color: #7d0219fb">{$currsupplier}</span></p></div>
                             <h3 style="color: red"><span style="margin-left: 45px"></span>Die Bestellung muss bis 11.00 Uhr ausgefürt werden</h3>
 
- <form class="form-signin form-signin-my" action="?upload=1" method="post">
+ <form class=" form-signin-my" action="?upload=1" method="post">
                                        <fieldset class="fieldsetorder">      
                                             <legend class="legendorder ">Speisekarte:</legend>  
                                                                                                                                 
