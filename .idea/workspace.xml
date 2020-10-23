@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Food.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/Supplier.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/Supplier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management/UserManagement/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/User.php" afterDir="false" />
-    </list>
+    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="db tests" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +164,7 @@
       <workItem from="1603378359196" duration="2929000" />
       <workItem from="1603438262497" duration="9541000" />
       <workItem from="1603448284194" duration="38000" />
-      <workItem from="1603448670207" duration="8017000" />
+      <workItem from="1603448670207" duration="8261000" />
     </task>
     <task id="LOCAL-00001" summary="3333">
       <created>1602761353904</created>
@@ -215,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602767995469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="db tests">
+      <created>1603456779006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603456779007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +238,8 @@
     <MESSAGE value="1212" />
     <MESSAGE value="new css" />
     <MESSAGE value="span with price" />
-    <option name="LAST_COMMIT_MESSAGE" value="span with price" />
+    <MESSAGE value="db tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="db tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="224" key="SettingsEditor" timestamp="1603448320101">
