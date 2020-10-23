@@ -44,49 +44,43 @@ class Database
                 if ($value[3] == 'OR' or $value[3] == 'AND') {
                     $whereParts[] .= " $value[3] ";
 
-//                    $qqq = implode(' ', $value[4]);
-//                    $whereParts[] .= $qqq;
                     $sql .= implode(' ', $whereParts);
                 } else {
                     $sql .= implode(', ', $whereParts);
                 }
             }
         }
-
         $result = $this->_pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-        //$lastId = $this->_pdo->lastInsertId();
 
         return $result;
-
     }
-
-    /**
-     * @param string $table
-     * @param array $tableArray
-     */
-    public function insert(string $table, array $tableArray)
-    {
-
-        if (empty($table) or empty($tableArray)) {
-            throw new RuntimeException('Please insert data');
-        }
-
-        $tableParts = implode(", ", array_keys($tableArray));
-        $prepareValues = array_keys($tableArray);
-        array_walk($prepareValues, function (&$item) {
-            $item = ':' . $item;
-        });
-
-        $prepareValueParts = implode(", ", $prepareValues);
-
-
-        $sql = "INSERT INTO $table ($tableParts) VALUES ($prepareValueParts)";
-
-        $statement = $this->_pdo->prepare($sql);
-
-        $statement->execute($tableArray);
-    }
-
+//
+//    /**
+//     * @param string $table
+//     * @param array $tableArray
+//     */
+//    public function insert(string $table, array $tableArray)
+//    {
+//
+//        if (empty($table) or empty($tableArray)) {
+//            throw new RuntimeException('Please insert data');
+//        }
+//
+//        $tableParts = implode(", ", array_keys($tableArray));
+//        $prepareValues = array_keys($tableArray);
+//        array_walk($prepareValues, function (&$item) {
+//            $item = ':' . $item;
+//        });
+//
+//        $prepareValueParts = implode(", ", $prepareValues);
+//
+//
+//        $sql = "INSERT INTO $table ($tableParts) VALUES ($prepareValueParts)";
+//
+//        $statement = $this->_pdo->prepare($sql);
+//
+//        $statement->execute($tableArray);
+//    }
 
     /**
      * @param string $table
@@ -134,35 +128,35 @@ class Database
 
         }
     }
-
-    /**
-     * @param string $from
-     * @param array $whereArray
-     */
-    public function delete(string $from, array $whereArray)
-    {
-        if (empty($whereArray) or empty($from)) {
-            throw new RuntimeException('Please insert data');
-        } else {
-
-            $sql = "DELETE FROM  $from";
-
-
-            $sql .= " WHERE ";
-            foreach ($whereArray as $value) {
-                $whereParts = [];
-                $whereParts[] .= $value[0] . $value[1] . $value[2];
-                if ($value[3] == 'OR' or $value[3] == 'AND') {
-                    $whereParts[] .= " $value[3] ";
-                    $sql .= implode(' ', $whereParts);
-                } else {
-                    $sql .= implode(', ', $whereParts);
-                }
-            }
-            $del = $this->_pdo->prepare($sql);
-            $del->execute();
-        }
-    }
+//
+//    /**
+//     * @param string $from
+//     * @param array $whereArray
+//     */
+//    public function delete(string $from, array $whereArray)
+//    {
+//        if (empty($whereArray) or empty($from)) {
+//            throw new RuntimeException('Please insert data');
+//        } else {
+//
+//            $sql = "DELETE FROM  $from";
+//
+//
+//            $sql .= " WHERE ";
+//            foreach ($whereArray as $value) {
+//                $whereParts = [];
+//                $whereParts[] .= $value[0] . $value[1] . $value[2];
+//                if ($value[3] == 'OR' or $value[3] == 'AND') {
+//                    $whereParts[] .= " $value[3] ";
+//                    $sql .= implode(' ', $whereParts);
+//                } else {
+//                    $sql .= implode(', ', $whereParts);
+//                }
+//            }
+//            $del = $this->_pdo->prepare($sql);
+//            $del->execute();
+//        }
+//    }
 
     /**
      * @return string

@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/UserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/Food.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Food.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/MenuManagement/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/MenuManagement/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/FullOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/OrderMapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/OrderManagement/SingleOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/SupplierManagement/Supplier.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/SupplierManagement/Supplier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Management/UserManagement/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Management/UserManagement/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +29,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <interpreter name="Remote PHP 7.1" composer="composer" />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -44,21 +68,41 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
-    <include_path>
-      <path value="$PROJECT_DIR$/../../modules/php/PHP_7.3-x64/PEAR/pear" />
-    </include_path>
+  <component name="PhpServers">
+    <servers>
+      <server host="vm71nb05.mainz.interexa.de/user/aadamchuk" id="1822da62-bcd8-4e15-9b3a-bba8422a466c" name="vm71nb05" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/srv/www/htdocs/user/aadamchuk/proekt" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectId" id="1irRNnRng3npSEHHsLxvp36wsrU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
+    <property name="dumpAutoload D:/user/aadamchuk/projekt/composer.json" value="--no-interaction --ansi --verbose" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\user\aadamchuk\projekt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\user\aadamchuk\projekt\tests" />
+      <recent name="D:\user\aadamchuk\projekt" />
       <recent name="D:\user\aadamchuk\projekt\Management\OrderManagement" />
       <recent name="D:\user\aadamchuk\projekt\Management\MenuManagement" />
     </key>
@@ -75,6 +119,48 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="PHPUnit.DatabaseTest">
+    <configuration name="DatabaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="DatabaseTest" file="$PROJECT_DIR$/tests/DatabaseTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DatabaseTest.testFetch" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="DatabaseTest" file="$PROJECT_DIR$/tests/DatabaseTest.php" method="testFetch" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testGetName" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/tests/UserTest.php" method="testGetName" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.testing" />
+      <item itemvalue="PHPUnit.UserTest.testGetName" />
+      <item itemvalue="PHPUnit.DatabaseTest.testFetch" />
+      <item itemvalue="PHPUnit.DatabaseTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.DatabaseTest" />
+        <item itemvalue="PHPUnit.DatabaseTest.testFetch" />
+        <item itemvalue="PHPUnit.UserTest.testGetName" />
+        <item itemvalue="PHPUnit.testing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,7 +174,18 @@
       <workItem from="1602663687248" duration="576000" />
       <workItem from="1602664410133" duration="24045000" />
       <workItem from="1602745882003" duration="6772000" />
-      <workItem from="1602752705727" duration="11993000" />
+      <workItem from="1602752705727" duration="16203000" />
+      <workItem from="1602833074127" duration="7160000" />
+      <workItem from="1603177030788" duration="2672000" />
+      <workItem from="1603179814752" duration="1048000" />
+      <workItem from="1603180923828" duration="2834000" />
+      <workItem from="1603359424619" duration="2702000" />
+      <workItem from="1603372516314" duration="1363000" />
+      <workItem from="1603373885696" duration="4363000" />
+      <workItem from="1603378359196" duration="2929000" />
+      <workItem from="1603438262497" duration="9541000" />
+      <workItem from="1603448284194" duration="38000" />
+      <workItem from="1603448670207" duration="8017000" />
     </task>
     <task id="LOCAL-00001" summary="3333">
       <created>1602761353904</created>
@@ -111,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602765664242</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="span with price">
+      <created>1602767995468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602767995469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +251,16 @@
     <MESSAGE value="3333" />
     <MESSAGE value="1212" />
     <MESSAGE value="new css" />
-    <option name="LAST_COMMIT_MESSAGE" value="new css" />
+    <MESSAGE value="span with price" />
+    <option name="LAST_COMMIT_MESSAGE" value="span with price" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="224" key="SettingsEditor" timestamp="1603448320101">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="224" key="SettingsEditor/1920.10.1280.984/0.0.1920.1160@0.0.1920.1160" timestamp="1603448320101" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/projekt@UserTest.xml" NAME="UserTest Coverage Results" MODIFIED="1603373042602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

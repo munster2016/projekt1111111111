@@ -85,7 +85,7 @@ HTML
                 $out->print(<<<HTML
       
         <li class="nav-item active">
-          <a class="nav-link2" href="GesamteBestellung.php">zur gesamte Bestellung</a>
+          <a class="nav-link2" href="GesamteBestellung.php">zu gesamter Bestellung</a>
         </li>
         <li class="nav-item">
           <a class="nav-link2 nav-2link" href="LieferantAuswahlFuerHeute.php">Lieferantenauswahl für gesamte Bestellung</a>

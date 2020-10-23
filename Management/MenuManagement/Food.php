@@ -42,23 +42,6 @@ class Food
         $this->price = $price;
         $this->lieferId = $lieferId;
         $this->foodId = $foodId;
-        //$this->menuId = $menuId;
-    }
-
-    /**
-     * @return string
-     */
-    public function getLieferId(): string
-    {
-        return $this->lieferId;
-    }
-
-    /**
-     * @param string $lieferId
-     */
-    public function setLieferId(string $lieferId): void
-    {
-        $this->lieferId = $lieferId;
     }
 
     /**
@@ -70,27 +53,11 @@ class Food
     }
 
     /**
-     * @param string $foodId
-     */
-    public function setFoodId(string $foodId): void
-    {
-        $this->foodId = $foodId;
-    }
-
-    /**
      * @return string
      */
     public function getName(): string
     {
         return $this->name;
-    }
-
-    /**
-     * @param string $name
-     */
-    public function setName(string $name): void
-    {
-        $this->name = $name;
     }
 
     /**
@@ -100,14 +67,5 @@ class Food
     {
         return $this->price;
     }
-
-    /**
-     * @param float $price
-     */
-    public function setPrice(float $price): void
-    {
-        $this->price = $price;
-    }
-
 
 }

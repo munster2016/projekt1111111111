@@ -73,7 +73,7 @@ class MainEinzBestellung implements PageInterface
                     <h3 class="main__text"><span style="margin-left: 50px"></span>Hallo {$this->_user->getName()}</h3>
                     
                     <div class="main__text"><p><span style="margin-left: 350px"></span>Lieferant für heute: <span style="color: #7d0219fb">{$currsupplier}</span></p></div>
-                            <h3 style="color: red"><span style="margin-left: 45px"></span>Die Bestellung muss bis 11.00 Uhr ausgefürt werden</h3>
+                            <h3 style="color: red"><span style="margin-left: 45px"></span>Die Bestellung muss bis 11.00 Uhr ausgeführt werden</h3>
 
  <form class=" form-signin-my" action="?upload=1" method="post">
                                        <fieldset class="fieldsetorder">      

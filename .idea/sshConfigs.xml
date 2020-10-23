@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="vm71nb05.mainz.interexa.de" id="e73496bc-df9c-4bcf-affb-21aa251bb39c" port="22" customName="wm71nb05" nameFormat="CUSTOM">
+        <option name="customName" value="wm71nb05" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

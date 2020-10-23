@@ -1,9 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/../../modules/php/PHP_7.3-x64/PEAR/pear" />
-    </include_path>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="58e85566-03a3-4c21-8365-44d3408b2f9f" name="Remote PHP 7.1" home="sftp://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data WEB_SERVER_CONFIG_ID="2a4d5177-169b-417c-84c1-595498b05cb2" WEB_SERVER_CONFIG_NAME="wm71nb05" WEB_SERVER_CREDENTIALS_ID="sftp://wwwrun@vm71nb05.mainz.interexa.de:22" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/wwwrun/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+      </interpreter>
+    </interpreters>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="Remote PHP 7.1">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/zend/bin/php-cgi" php_cli="/usr/local/zend/bin/php" path_separator=":" remote_host="192.168.56.1" version="7.1.33">
+          <additional_php_ini>/usr/local/zend/etc/conf.d/ZendGlobalDirectives.ini, /usr/local/zend/etc/conf.d/bcmath.ini, /usr/local/zend/etc/conf.d/bz2.ini, /usr/local/zend/etc/conf.d/calendar.ini, /usr/local/zend/etc/conf.d/codetracing.ini, /usr/local/zend/etc/conf.d/ctype.ini, /usr/local/zend/etc/conf.d/curl.ini, /usr/local/zend/etc/conf.d/datacache.ini, /usr/local/zend/etc/conf.d/debugger.ini, /usr/local/zend/etc/conf.d/exif.ini, /usr/local/zend/etc/conf.d/fileinfo.ini, /usr/local/zend/etc/conf.d/ftp.ini, /usr/local/zend/etc/conf.d/gd.ini, /usr/local/zend/etc/conf.d/gettext.ini, /usr/local/zend/etc/conf.d/gmp.ini, /usr/local/zend/etc/conf.d/imagick.ini, /usr/local/zend/etc/conf.d/imap.ini, /usr/local/zend/etc/conf.d/intl.ini, /usr/local/zend/etc/conf.d/jbridge.ini, /usr/local/zend/etc/conf.d/jobqueue.ini, /usr/local/zend/etc/conf.d/ldap.ini, /usr/local/zend/etc/conf.d/mbstring.ini, /usr/local/zend/etc/conf.d/mcrypt.ini, /usr/local/zend/etc/conf.d/memcached.ini, /usr/local/zend/etc/conf.d/mongodb.ini, /usr/local/zend/etc/conf.d/monitor.ini, /usr/local/zend/etc/conf.d/mysqli.ini, /usr/local/zend/etc/conf.d/oci8.ini, /usr/local/zend/etc/conf.d/odbc.ini, /usr/local/zend/etc/conf.d/opcache.ini, /usr/local/zend/etc/conf.d/pagecache.ini, /usr/local/zend/etc/conf.d/pcntl.ini, /usr/local/zend/etc/conf.d/pdo_dblib.ini, /usr/local/zend/etc/conf.d/pdo_mysql.ini, /usr/local/zend/etc/conf.d/pdo_odbc.ini, /usr/local/zend/etc/conf.d/pdo_pgsql.ini, /usr/local/zend/etc/conf.d/pgsql.ini, /usr/local/zend/etc/conf.d/phar.ini, /usr/local/zend/etc/conf.d/posix.ini, /usr/local/zend/etc/conf.d/redis.ini, /usr/local/zend/etc/conf.d/sc.ini, /usr/local/zend/etc/conf.d/shmop.ini, /usr/local/zend/etc/conf.d/soap.ini, /usr/local/zend/etc/conf.d/sockets.ini, /usr/local/zend/etc/conf.d/solr.ini, /usr/local/zend/etc/conf.d/ssh2.ini, /usr/local/zend/etc/conf.d/statistics.ini, /usr/local/zend/etc/conf.d/statistics_ext.ini, /usr/local/zend/etc/conf.d/sysvmsg.ini, /usr/local/zend/etc/conf.d/sysvsem.ini, /usr/local/zend/etc/conf.d/sysvshm.ini, /usr/local/zend/etc/conf.d/tideways.ini, /usr/local/zend/etc/conf.d/tidy.ini, /usr/local/zend/etc/conf.d/tokenizer.ini, /usr/local/zend/etc/conf.d/url_insight.ini, /usr/local/zend/etc/conf.d/utils.ini, /usr/local/zend/etc/conf.d/wddx.ini, /usr/local/zend/etc/conf.d/xdebug.ini, /usr/local/zend/etc/conf.d/xmlrpc.ini, /usr/local/zend/etc/conf.d/xsl.ini, /usr/local/zend/etc/conf.d/zend_extension_manager.ini, /usr/local/zend/etc/conf.d/zend_libraries.ini, /usr/local/zend/etc/conf.d/zip.ini, /usr/local/zend/etc/conf.d/zray.ini</additional_php_ini>
+          <configuration_file>/usr/local/zend/etc/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/interexa/php7/pear:/usr/local/zend/var/libraries/Zend_Framework_1/default/library:/usr/local/zend/share/pear" />
+          </configuration_options>
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="Zend Server Z-Ray" />
+            <extension name="Zend Session Clustering" />
+            <extension name="Zend Utils" />
+            <extension name="bcmath" />
+            <extension name="bz2" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="imagick" />
+            <extension name="imap" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="ldap" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mcrypt" />
+            <extension name="memcached" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="oci8" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_pgsql" />
+            <extension name="pdo_sqlite" />
+            <extension name="pgsql" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="redis" />
+            <extension name="session" />
+            <extension name="soap" />
+            <extension name="sockets" />
+            <extension name="solr" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="tideways" />
+            <extension name="tidy" />
+            <extension name="tokenizer" />
+            <extension name="xdebug" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="58e85566-03a3-4c21-8365-44d3408b2f9f" load_method="CUSTOM_LOADER" custom_loader_path="/srv/www/htdocs/user/aadamchuk/projekt/vendor/autoload.php" phpunit_phar_path="/srv/www/htdocs/user/aadamchuk/projekt/phpunit.phar" />
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" phpunit_phar_path="" />
+    </phpunit_settings>
+  </component>
 </project>

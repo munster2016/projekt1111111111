@@ -39,28 +39,5 @@ class Menu
         return $this->_food;
     }
 
-    /**
-     * @param Food[] $food
-     */
-    public function setFood(array $food): void
-    {
-        $this->_food = $food;
-    }
-
-    /**
-     * @return string
-     */
-    public function getSupplierId(): string
-    {
-        return $this->_supplierId;
-    }
-
-    /**
-     * @param string $supplierId
-     */
-    public function setSupplierId(string $supplierId): void
-    {
-        $this->_supplierId = $supplierId;
-    }
 
 }

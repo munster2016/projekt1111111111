@@ -50,7 +50,6 @@ class SingleOrder
         $this->time = $time;
         //$this->singleOrderId = $singleOrderId;
     }
-
     /**
      * @return string
      */
@@ -58,31 +57,6 @@ class SingleOrder
     {
         return $this->time;
     }
-
-//    /**
-//     * @return string
-//     */
-//    public function getSingleOrderId(): string
-//    {
-//        return $this->singleOrderId;
-//    }
-
-    /**
-     * @param string $singleOrderId
-     */
-    public function setSingleOrderId(string $singleOrderId): void
-    {
-        $this->singleOrderId = $singleOrderId;
-    }
-
-    /**
-     * @param string $time
-     */
-    public function setTime(string $time): void
-    {
-        $this->time = $time;
-    }
-
     /**
      * @return string
      */
@@ -90,16 +64,6 @@ class SingleOrder
     {
         return $this->lieferId;
     }
-
-    /**
-     * @param string $lieferId
-     */
-    public function setLieferId(string $lieferId): void
-    {
-        $this->lieferId = $lieferId;
-    }
-
-
     /**
      * @return string
      */
@@ -107,16 +71,6 @@ class SingleOrder
     {
         return $this->wishUser;
     }
-
-    /**
-     * @param string $wishUser
-     */
-    public function setWishUser(string $wishUser): void
-    {
-        $this->wishUser = $wishUser;
-    }
-
-
     /**
      * @return string
      */
@@ -124,15 +78,6 @@ class SingleOrder
     {
         return $this->userId;
     }
-
-    /**
-     * @param string $userId
-     */
-    public function setUserId(string $userId): void
-    {
-        $this->userId = $userId;
-    }
-
     /**
      * @return array|Food[]
      */
@@ -141,12 +86,5 @@ class SingleOrder
         return $this->food;
     }
 
-    /**
-     * @param array|Food[] $food
-     */
-    public function setFood($food): void
-    {
-        $this->food = $food;
-    }
 
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a4d5177-169b-417c-84c1-595498b05cb2" name="wm71nb05" url="http://vm71nb05.mainz.interexa.de/user/aadamchuk">
+        <fileTransfer host="vm71nb05.mainz.interexa.de" port="22" rootFolder="/srv/www/htdocs/user/aadamchuk" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

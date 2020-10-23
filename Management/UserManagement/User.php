@@ -22,7 +22,6 @@ class User
         $this->_name = $name;
         $this->_password = $password;
     }
-
     /**
      * @return string
      */
@@ -30,15 +29,6 @@ class User
     {
         return $this->_id;
     }
-
-    /**
-     * @param string $id
-     */
-    public function setId(string $id): void
-    {
-        $this->_id = $id;
-    }
-
     /**
      * @return string
      */
@@ -46,15 +36,6 @@ class User
     {
         return $this->_name;
     }
-
-    /**
-     * @param string $name
-     */
-    public function setName(string $name): void
-    {
-        $this->_name = $name;
-    }
-
     /**
      * @return mixed
      */
@@ -64,11 +45,11 @@ class User
     }
 
     /**
-     * @param string $password
+     * @param string $name
      */
-    public function setPassword(string $password): void
+    public function setName(string $name): void
     {
-        $this->_password = $password;
+        $this->_name = $name;
     }
 
 

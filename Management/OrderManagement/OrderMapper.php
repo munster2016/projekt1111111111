@@ -16,7 +16,6 @@ class OrderMapper
     {
         $this->_database = $database;
     }
-
     /**
      * @param $order
      */
@@ -31,17 +30,8 @@ class OrderMapper
         );
         $this->_database->insert('singleorder', $orderDataArray1);
 
-        /*
-         * get last single order
-         */
-
-        // $w = "select `singleOrderId` from `singleOrder` order by `singleOrderId` desc limit 1";
+        //get last single order
         $lastId = $this->_database->lastElemId();
-
-
-//        $lastItem2 = $this->_database->fetch2($w);
-//        $lastItem = $lastItem2[0]['singleOrderId'];
-
 
         foreach ($order->getFood()as $food) {
 
@@ -52,11 +42,8 @@ class OrderMapper
             $this->_database->insert('orderidfoodid', $orderDataArray2);
         }
     }
-
-
     public function getFullOrder():FullOrder
     {
-
         $currDay = date("d");
         $currMohth = date("m");
         $currYear = date("y");
