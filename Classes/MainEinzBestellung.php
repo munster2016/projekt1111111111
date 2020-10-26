@@ -66,16 +66,17 @@ class MainEinzBestellung implements PageInterface
 
 
 
+
         $out->print(<<<HTML
-      <main>
+      <main style="background-color: mediumseagreen">
         <div class="container ">
             <div class="container-white-background">
                     <h3 class="main__text"><span style="margin-left: 50px"></span>Hallo {$this->_user->getName()}</h3>
                     
-                    <div class="main__text"><p><span style="margin-left: 350px"></span>Lieferant für heute: <span style="color: #7d0219fb">{$currsupplier}</span></p></div>
+                    <div class="main__text"><p><span style="margin-left: 600px"></span>Lieferant für heute: <span style="color: #7d0219fb">{$currsupplier}</span></p></div>
                             <h3 style="color: red"><span style="margin-left: 45px"></span>Die Bestellung muss bis 11.00 Uhr ausgeführt werden</h3>
 
- <form class=" form-signin-my" action="?upload=1" method="post">
+ <form class="order" action="?upload=1" method="post">
                                        <fieldset class="fieldsetorder">      
                                             <legend class="legendorder ">Speisekarte:</legend>  
                                                                                                                                 
@@ -88,9 +89,9 @@ HTML
             $out->print(<<<HTML
 
 <div class="form-check">
-            <div style="width: 190px"><input class="form-check-input" type="checkbox" name="foodId[]" value="{$food->getFoodId()}" id="defaultCheck1">
+            <div style="width: 390px;font-size: 32px"><input class="form-check-input" type="checkbox" name="foodId[]" value="{$food->getFoodId()}" id="defaultCheck1">
             {$food->getName()}</div>
-            <div style="text-align: end"><span style="margin-right: 150px"></span> {$food->getPrice()} Euro</div>
+            <div style="text-align: end;font-size: 32px"><span style="margin-right: 150px"></span> {$food->getPrice()} Euro</div>
             
 </div>                            
                                                                                                        
@@ -103,7 +104,7 @@ HTML
                                         <div style="color: red">$this->_error</div> 
                                         <br>
                                         <input type="hidden" name="supplierId" value="{$currsupplierId}"> 
-                                        <textarea name="wish" placeholder="schreib noch Zusatzwünsch..." id="" cols="25" rows="3"></textarea>
+                                        <textarea style="font-size: 22px" name="wish" placeholder="...noch Zusatzwünsche" id="" cols="25" rows="3"></textarea>
                                         <p><input class="ordersubmit" type="submit" value="bestellen"></p>
                                         
     

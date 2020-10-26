@@ -33,7 +33,7 @@ class MainEinzBestellungFertig implements PageInterface
         $_eo->print(
             <<<HTML
            
-           <main>
+           <main style="background-color: mediumseagreen">
             <div class="container">
                 <div class="container-white-background">
             
@@ -41,9 +41,9 @@ class MainEinzBestellungFertig implements PageInterface
                     <h2 class="main__text"></h2>
                     <div class="profile__list">
                     <div class="main__text"><p><span style="margin-left: 50px"></p></div>
-                    <div class="main__text"><p><span style="margin-left: 50px">Deine Bestellung wird überprüft und kommt bald. </p></div>
-                    <div class="main__text"><p><span style="margin-left: 50px">Vielen Dank  {$this->_user->getName()}, bis zum nächstes Mal.</p></div>
-                    <div><span style="margin-left: 150px"><img src="../Images/food-delivery.jpg" width="450px" height="350px"  alt="img"></div>   
+                    <div class="main__text"><p><span style="margin-left: 50px;font-size: 36px">Deine Bestellung wird überprüft und kommt bald. </p></div>
+                    <div class="main__text"><p><span style="margin-left: 50px;font-size: 36px">Vielen Dank  {$this->_user->getName()}, bis zum nächstes Mal.</p></div>
+                    <div><span style="margin-left: 150px"><img src="../Images/food-delivery.jpg" width="750px" height="550px"  alt="img"></div>   
                 </div>
 
                 </div>

@@ -75,7 +75,7 @@ class MainSpeisekarteSehen implements PageInterface
         $supplier = $supplRepos->getSupplierById($this->_supplierId);
 
         $out->print(<<<HTML
-     <main>
+<main style="background-color: mediumseagreen">
         <div class="container ">
             <div class="container-white-background">
                     
@@ -93,10 +93,11 @@ HTML
             $out->print(<<<HTML
 
 <div class="form-check">
-  
-    {$food->getName()}<span style="margin-right: 100px"></span> {$food->getPrice()} Euro
-  
-</div>                            
+            <div style="width: 190px"> 
+            {$food->getName()}</div>
+            <div style="text-align: end"><span style="margin-right: 150px"></span> {$food->getPrice()} Euro</div>
+            
+</div>                           
                                                                                                         
 HTML
             );

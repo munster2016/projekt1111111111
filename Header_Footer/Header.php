@@ -85,10 +85,10 @@ HTML
                 $out->print(<<<HTML
       
         <li class="nav-item active">
-          <a class="nav-link2" href="GesamteBestellung.php">zu gesamter Bestellung</a>
+          <a class="nav-link2" href="GesamteBestellung.php">Bestellung</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link2 nav-2link" href="LieferantAuswahlFuerHeute.php">Lieferantenauswahl für gesamte Bestellung</a>
+          <a class="nav-link2 nav-2link" href="LieferantAuswahlFuerHeute.php">Lieferantenauswahl</a>
         </li>
         
 HTML
@@ -102,7 +102,7 @@ HTML
            <a class="nav-link2" href="AlleLieferanten.php">Alle Lieferanten</a>
         </li>   
         <li class="nav-item">
-          <a class="nav-link2" href="EinzBestellung.php">zu einzelne Bestellung</a>
+          <a class="nav-link2" href="EinzBestellung.php">Speisekarte</a>
         </li>
         <li class="nav-item">
           <a class="nav-link2" href="Abmeldung.php">Abmelden</a>

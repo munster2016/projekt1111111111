@@ -54,33 +54,33 @@ class Database
 
         return $result;
     }
-//
-//    /**
-//     * @param string $table
-//     * @param array $tableArray
-//     */
-//    public function insert(string $table, array $tableArray)
-//    {
-//
-//        if (empty($table) or empty($tableArray)) {
-//            throw new RuntimeException('Please insert data');
-//        }
-//
-//        $tableParts = implode(", ", array_keys($tableArray));
-//        $prepareValues = array_keys($tableArray);
-//        array_walk($prepareValues, function (&$item) {
-//            $item = ':' . $item;
-//        });
-//
-//        $prepareValueParts = implode(", ", $prepareValues);
-//
-//
-//        $sql = "INSERT INTO $table ($tableParts) VALUES ($prepareValueParts)";
-//
-//        $statement = $this->_pdo->prepare($sql);
-//
-//        $statement->execute($tableArray);
-//    }
+
+    /**
+     * @param string $table
+     * @param array $tableArray
+     */
+    public function insert(string $table, array $tableArray)
+    {
+
+        if (empty($table) or empty($tableArray)) {
+            throw new RuntimeException('Please insert data');
+        }
+
+        $tableParts = implode(", ", array_keys($tableArray));
+        $prepareValues = array_keys($tableArray);
+        array_walk($prepareValues, function (&$item) {
+            $item = ':' . $item;
+        });
+
+        $prepareValueParts = implode(", ", $prepareValues);
+
+
+        $sql = "INSERT INTO $table ($tableParts) VALUES ($prepareValueParts)";
+
+        $statement = $this->_pdo->prepare($sql);
+
+        $statement->execute($tableArray);
+    }
 
     /**
      * @param string $table

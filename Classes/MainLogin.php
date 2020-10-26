@@ -52,7 +52,7 @@ HTML
         );
         if ($this->_error) {
             $out->print(<<<HTML
-        }
+        
 		<p class="error">
                 {$this->_error}
                     </p>	

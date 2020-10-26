@@ -17,7 +17,7 @@ class Footer implements RenderInterface
         $out->print(<<<HTML
     
 <footer class="page-foot">
-  <p class="footer-copyr">© 2020 Copyright  Andrii Adamchuk </p>
+  <p class="footer-copyr"></p>
 </footer>
 
 

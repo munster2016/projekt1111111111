@@ -73,12 +73,12 @@ class MainGesamteBestellung implements PageInterface
         }
         $out->print(<<<HTML
 
-<main>
+<main style="background-color: mediumseagreen">
            <div class="container">
-                <div class="suppl-all">     
+                <div class="container-white-background">     
         
-                    <h2 style="text-align: center" class="">Gesamte Bestellung   <span style="color: #7d0219fb">{$this->_fullOrder->getDate()}</span></h2>
-                    <h3 style="text-align: center" class="">Heute unser Lieferant ist : <span style="color: darkblue">{$currsupplier}</h3>
+                    <h2 style="text-align: center;font-size: 36px" class="">Gesamte Bestellung   <span style="color: #7d0219fb">{$this->_fullOrder->getDate()}</span></h2>
+                    <h3 style="text-align: center;font-size: 33px" class="">Heute unser Lieferant ist : <span style="color: darkblue">{$currsupplier}</h3>
                          
                          <div style="border: 1px solid grey"><h4 style="text-align: center">Diese Mitarbeitern haben Bestellung gemacht:</h4></div> 
                          <div class="container-box">

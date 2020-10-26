@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="db tests" />
+    <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projekt1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projekt1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainGesamteBestellung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Footer/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +71,39 @@
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1irRNnRng3npSEHHsLxvp36wsrU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,12 +114,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="dumpAutoload D:/user/aadamchuk/projekt/composer.json" value="--no-interaction --ansi --verbose" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -98,11 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.DatabaseTest">
-    <configuration name="DatabaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="DatabaseTest" file="$PROJECT_DIR$/tests/DatabaseTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHPUnit.tests">
     <configuration name="DatabaseTest.testFetch" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="DatabaseTest" file="$PROJECT_DIR$/tests/DatabaseTest.php" method="testFetch" scope="Method" />
       <method v="2" />
@@ -113,6 +156,10 @@
     </configuration>
     <configuration name="testing" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="DatabaseTest" directory="$PROJECT_DIR$/tests" file="$PROJECT_DIR$/tests/DatabaseTest.php" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -128,11 +175,11 @@
       <item itemvalue="PHPUnit.testing" />
       <item itemvalue="PHPUnit.UserTest.testGetName" />
       <item itemvalue="PHPUnit.DatabaseTest.testFetch" />
-      <item itemvalue="PHPUnit.DatabaseTest" />
+      <item itemvalue="PHPUnit.tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.DatabaseTest" />
+        <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.DatabaseTest.testFetch" />
         <item itemvalue="PHPUnit.UserTest.testGetName" />
         <item itemvalue="PHPUnit.testing" />
@@ -164,7 +211,8 @@
       <workItem from="1603378359196" duration="2929000" />
       <workItem from="1603438262497" duration="9541000" />
       <workItem from="1603448284194" duration="38000" />
-      <workItem from="1603448670207" duration="8261000" />
+      <workItem from="1603448670207" duration="15018000" />
+      <workItem from="1603714368050" duration="7333000" />
     </task>
     <task id="LOCAL-00001" summary="3333">
       <created>1602761353904</created>
@@ -201,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603456779007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="user and db tests">
+      <created>1603457024152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603457024152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +294,8 @@
     <MESSAGE value="new css" />
     <MESSAGE value="span with price" />
     <MESSAGE value="db tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="db tests" />
+    <MESSAGE value="user and db tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="user and db tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="224" key="SettingsEditor" timestamp="1603448320101">
