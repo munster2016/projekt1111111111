@@ -75,7 +75,7 @@ class MainSpeisekarteSehen implements PageInterface
         $supplier = $supplRepos->getSupplierById($this->_supplierId);
 
         $out->print(<<<HTML
-<main style="background-color: mediumseagreen">
+<main>
         <div class="container ">
             <div class="container-white-background">
                     

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4e2b51-5ef8-476c-b6bb-e73c13854229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projekt1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projekt1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainAlleLieferanten.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellung.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainEinzBestellungFertig.php" afterDir="false" />
@@ -13,11 +10,11 @@
       <change beforePath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLieferantAuswahlFuerHeute.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/MainSpeisekarteSehen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Footer/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header_Footer/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Header_Footer/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Anmeldung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Anmeldung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/GesamteBestellung.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/GesamteBestellung.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +116,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -132,18 +129,6 @@
       <recent name="D:\user\aadamchuk\projekt\Management\OrderManagement" />
       <recent name="D:\user\aadamchuk\projekt\Management\MenuManagement" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
     <configuration name="DatabaseTest.testFetch" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -186,7 +171,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -212,7 +197,11 @@
       <workItem from="1603438262497" duration="9541000" />
       <workItem from="1603448284194" duration="38000" />
       <workItem from="1603448670207" duration="15018000" />
-      <workItem from="1603714368050" duration="7333000" />
+      <workItem from="1603714368050" duration="7659000" />
+      <workItem from="1603784743622" duration="6363000" />
+      <workItem from="1603879323404" duration="2722000" />
+      <workItem from="1603961507821" duration="1036000" />
+      <workItem from="1604305052635" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="3333">
       <created>1602761353904</created>
@@ -256,24 +245,30 @@
       <option name="project" value="LOCAL" />
       <updated>1603457024152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="background green">
+      <created>1603726116422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603726116422</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -295,7 +290,8 @@
     <MESSAGE value="span with price" />
     <MESSAGE value="db tests" />
     <MESSAGE value="user and db tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="user and db tests" />
+    <MESSAGE value="background green" />
+    <option name="LAST_COMMIT_MESSAGE" value="background green" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="224" key="SettingsEditor" timestamp="1603448320101">

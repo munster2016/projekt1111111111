@@ -1,6 +1,6 @@
 
 html {
-    background: url(../Images/backgroundimg.jpg) no-repeat center center fixed;
+    background: url(../Images/backgroundimg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,6 +24,7 @@ main{
     min-height: 1200px;
     margin: auto;
     display: flex;
+    background-color: #0e988a;
 }
 
 main.anmeldung{
@@ -290,4 +291,9 @@ footer{
 .form-check{
     display: flex;
     flex-direction: row;
+}
+
+.span{
+    margin-left: 310px;
+    font-size: 24px;
 }

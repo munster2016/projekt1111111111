@@ -37,7 +37,7 @@ class MainLogin implements PageInterface
     
 
 
-<main class="anmeldung">    
+<div class="anmeldung">    
     <div class="container">
     <div class="container-anmeldund">
 	<form class="form-signin" action="?login=1" method="post">
@@ -60,7 +60,7 @@ HTML
 		<br>
 		</div>
 </div>
-</main>
+</div>
 HTML
         );
 

@@ -73,14 +73,14 @@ class MainGesamteBestellung implements PageInterface
         }
         $out->print(<<<HTML
 
-<main style="background-color: mediumseagreen">
+<main>
            <div class="container">
                 <div class="container-white-background">     
         
                     <h2 style="text-align: center;font-size: 36px" class="">Gesamte Bestellung   <span style="color: #7d0219fb">{$this->_fullOrder->getDate()}</span></h2>
-                    <h3 style="text-align: center;font-size: 33px" class="">Heute unser Lieferant ist : <span style="color: darkblue">{$currsupplier}</h3>
+                    <h3 style="text-align: center;font-size: 33px" class="">Heute ist unser Lieferant : <span style="color: darkblue">{$currsupplier}</h3>
                          
-                         <div style="border: 1px solid grey"><h4 style="text-align: center">Diese Mitarbeitern haben Bestellung gemacht:</h4></div> 
+                         <div style="border: 1px solid grey"><h4 style="text-align: center">Diese Mitarbeiter haben bestellt :</h4></div> 
                          <div class="container-box">
                                                                                                            
 HTML
@@ -89,17 +89,8 @@ HTML
         $this->_fullOrder->getDate();    //date of full order
         $singleorder = $this->_fullOrder->getSingleOrders();
 
-//        foreach ($singleorder as $item)
-//        {
-//           $item->getLieferId();
-//           $item->getUserId();
-//           $item->getFood();//foreach
-//
-//        }
-
 
         foreach ($singleorder as $item) {
-
 
 
             $out->print(<<<HTML
@@ -108,33 +99,30 @@ HTML
 <fieldset class="fieldsetorder"">
 <legend class="legendorder">{$this->getUserNameById($item->getUserId())}</legend>
 
-                <p>hat bestellt : <span style="margin-left: 100px">
+                <p style="font-size: 26px">hat bestellt : <span style="margin-left: 100px">
 HTML
         );
-
             foreach ($item->getFood() as $food)
                 {
                     $out->print(<<<HTML
 
                         <div style="border: 2px solid gray">
                         
-                      <p style="text-align: center">{$this->getFoodNameAndPriceById($food)->getName()}.....
-                      {$this->getFoodNameAndPriceById($food)->getPrice()} <span style="color: red">Euro</span></p>
-                                
-                                
+                      <p style="font-size: 26px;margin-left:35px">
+                        {$this->getFoodNameAndPriceById($food)->getName()}.....
+                      {$this->getFoodNameAndPriceById($food)->getPrice()} 
+                      <span style="color: red">Euro</span></p>                                
+                               
                         </div>
 HTML
                     );
                 }
-
             $out->print(<<<HTML
                 </span></p>
-                <p>Zusatzwünsch : <span style="margin-left: 100px; color: midnightblue">{$item->getWishUser()}</span></p>
-                <p>Zeit der Bestellung :<span style="margin-left: 50px">{$item->getTime()}</span></p>
-                 
-                <input type="hidden" name="supplierId" value="{$item->getUserId()}"> 
-                
-                                        
+                <p style="font-size: 26px;color: blueviolet">Zusatzwünsche : 
+                <span style="margin-left: 100px; color: midnightblue">{$item->getWishUser()}</span></p>
+                <p>Zeit der Bestellung :<span style="margin-left: 50px">{$item->getTime()}</span></p>                 
+                <input type="hidden" name="supplierId" value="{$item->getUserId()}">                                                       
             </fieldset>
 </form>
 HTML

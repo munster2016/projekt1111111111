@@ -68,7 +68,7 @@ class MainEinzBestellung implements PageInterface
 
 
         $out->print(<<<HTML
-      <main style="background-color: mediumseagreen">
+      <main class="main">
         <div class="container ">
             <div class="container-white-background">
                     <h3 class="main__text"><span style="margin-left: 50px"></span>Hallo {$this->_user->getName()}</h3>

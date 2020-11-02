@@ -10,8 +10,6 @@ require_once('../Classes/MainLogin.php');
 require_once('../Classes/PhpPageRenderer.php');
 require_once('../Factory/Factory.php');
 
-
-
 $factory = new Factory();
 $userRepos = $factory->createUserRepository();
 
